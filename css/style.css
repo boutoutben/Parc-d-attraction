@@ -1,0 +1,157 @@
+body{
+    position: relative;
+    background-color: rgb(65, 60, 60);
+    margin: 0;
+    padding: 0;
+    z-index: -20;
+    color: white;
+}
+
+body::after{
+    content: '';
+    z-index: -10;
+    position: absolute;
+    top : 0; left : -0; right : 0; bottom : 0;
+    background-image: url("../img/homebackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: .7;
+}
+
+/*navbar*/
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(158, 32, 32);
+    height: 2.5%;
+}
+
+.linksNavbar{
+    display: flex;
+    flex-direction: row;
+    width: 82%;
+}
+
+.link{
+    border: black solid 2px;
+    width: 25%;
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+.logo{
+    margin-left: 1%;
+}
+.navbarTitle{
+    font-size: 28px;
+    width: 14%;
+    text-align: center;
+    align-content: center;
+}
+
+/*présentation*/
+.presentation{
+    background-color: rgb(241, 76, 76, .6);
+    border-radius: 12px;
+    margin:50px 10%;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+}
+
+.text{
+    font-size: 20px;
+    text-align: center;
+}
+.text_img{
+    display: flex;
+}
+
+.presentationImg{
+    margin: 2.5%;
+    padding: 0 10%;
+}
+
+/*funZonnes*/
+
+.funZonne{
+    background-color: rgb(121, 5, 5,.65);
+    margin:0 10%;
+    padding-bottom: 20px;
+}
+
+.allZonnes{
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    grid-template-rows: auto;
+    grid-gap: 100px;
+    justify-content: center;
+}
+
+
+.subtitle{
+    text-align: center;
+    font-size: 25px;
+}
+
+/*recap*/
+
+.allActivity{
+    display: flex;
+    margin: 50px 10%;
+    justify-content: center;
+}
+
+.activity{
+    background-color: rgb(168, 91, 91,.65);
+    border: black solid 2px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 5%;
+    text-align: center;
+    align-content: center;
+}
+
+/*services*/
+
+.allServices{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: auto;
+    grid-gap: 100px;
+    margin: 50px 10%;
+}
+
+.service{
+    background-color: rgba(143, 57, 57, 0.65);
+}
+.imgService{
+    margin: 1%;
+}
+
+/*prices*/ 
+
+.prices{
+    padding-bottom: 50px ;
+}
+
+.allPrices{
+    margin: 50px 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 100px;
+    justify-content: center;
+}
+.price{
+    content: '';
+    position:relative;
+    background-color: rgb(175, 57, 57);
+    background-size: 100% 100%;
+    border: black solid 2px;
+    border-radius: 15px;
+}
