@@ -59,7 +59,7 @@ body::after{
 }
 .title{
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 .text{
@@ -94,7 +94,7 @@ body::after{
 
 .subtitle{
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 /*recap*/
@@ -135,10 +135,6 @@ body::after{
 
 /*prices*/ 
 
-.prices{
-    padding-bottom: 50px ;
-}
-
 .allPrices{
     margin: 50px 10%;
     display: grid;
@@ -154,4 +150,38 @@ body::after{
     background-size: 100% 100%;
     border: black solid 2px;
     border-radius: 15px;
+}
+
+/*Horraires*/
+
+.scheduleDiv{
+    background-color: rgb(247, 41, 41,.65);
+    margin: 50px 10%;
+    padding-bottom: 15px;
+    border-radius: 30px;
+}
+.dayText{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*footer*/
+.footer{
+    margin-top: 75px;
+}
+.imgFooter{
+    background-color: rgb(48, 47, 47);
+}
+
+.imgFooter img{
+    margin-left: 30%;
+}
+
+.divCopyright{
+
+    margin-top: -30px;
+    background-color: black;
+    font-size: 25px;
+    margin-bottom: -30px;
 }
