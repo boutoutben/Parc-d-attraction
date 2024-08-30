@@ -41,6 +41,11 @@ body::after{
     font-size: 25px;
 }
 
+.link:hover{
+    border: white solid 5px;
+    cursor: pointer;
+}
+
 .logo{
     margin-left: 1%;
 }
@@ -63,16 +68,18 @@ body::after{
 }
 
 .text{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    margin-left: 1%;
 }
 .text_img{
     display: flex;
 }
 
 .presentationImg{
-    margin: 2.5%;
-    padding: 0 10%;
+    width: 40%;
+    height: 20vw;
+    margin: 0 2.5%;
 }
 
 /*funZonnes*/
@@ -131,6 +138,8 @@ body::after{
 }
 .imgService{
     margin: 1%;
+    width:30vw;
+     height:10vw;
 }
 
 /*prices*/ 
@@ -156,7 +165,7 @@ body::after{
 
 .scheduleDiv{
     background-color: rgb(247, 41, 41,.65);
-    margin: 50px 10%;
+    margin: 50px 20%;
     padding-bottom: 15px;
     border-radius: 30px;
 }
@@ -176,6 +185,8 @@ body::after{
 
 .imgFooter img{
     margin-left: 30%;
+    width: 40%;
+    height: 30vw;
 }
 
 .divCopyright{
